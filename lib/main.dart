@@ -40,7 +40,7 @@ class _MagicAppState extends State<MagicApp> {
         children: [
           Expanded(
               child: FlatButton(
-            child: Image.asset('images/ans$magicresult.png'),
+            child: Image.asset('images/ans$magicresult.png'), //image change
             onPressed: () {
               setState(() {
                 magicresult = Random().nextInt(5) + 1;
