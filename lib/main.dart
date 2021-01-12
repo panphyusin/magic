@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//test
 class MagicApp extends StatefulWidget {
   @override
   _MagicAppState createState() => _MagicAppState();
